@@ -1,0 +1,55 @@
+{
+  "name": "ai-cz",
+  "version": "1.0.0",
+  "description": "AI-powered conventional commit tool with emojis",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "ai-cz": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target node --format esm",
+    "dev": "bun run src/index.ts",
+    "prepublishOnly": "bun run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "conventional",
+    "ai",
+    "openai",
+    "cli",
+    "conventional-commits",
+    "emoji",
+    "automation"
+  ],
+  "author": "Sheikh Ahnaf Hasan <hello@ahnaf.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pieeee/ai-cz.git"
+  },
+  "homepage": "https://github.com/pieeee/ai-cz#readme",
+  "bugs": {
+    "url": "https://github.com/pieeee/ai-cz/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15",
+    "openai": "^4.28.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "bun-types": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "preferGlobal": true
+}
