@@ -1,5 +1,5 @@
 {
-  "name": "ai-cz",
+  "name": "@pieeee/ai-cz",
   "version": "1.0.0",
   "description": "AI-powered conventional commit tool with emojis",
   "main": "dist/index.js",
