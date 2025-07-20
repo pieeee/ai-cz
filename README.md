@@ -13,7 +13,7 @@ AI-powered conventional commit tool with emojis that analyzes your git changes a
 ## Installation
 
 ```bash
-npm install -g ai-cz
+npm install -g @pieeee/ai-cz
 ```
 
 ## Usage
